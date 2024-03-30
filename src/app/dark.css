@@ -1,0 +1,263 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dark-bg {
+  background-color: #292B32/* Replace with your desired background color */
+}
+
+.dark-bg-sport{
+  
+  color: #FFFFFF;
+
+}
+/* globals.css */
+.dark-bg-image{
+  background: #3B3E47;
+  border-color: #3B3E47;
+
+}
+
+.dark-bg-image1 {
+    background-image: url('/images/Mask group.png');
+    background-size: contain; 
+    background-repeat: no-repeat;
+  }
+  
+  .dark-bg-image2 {
+    background-image: url('/images/Mask group (1).png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+  }
+  
+  .dark-bg-image3 {
+    background-image: url('/images/Mask group (2).png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+  }
+  
+  .dark-bg-image4 {
+    background-image: url('/images/Mask group (1).png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+  }
+  
+  .dark-bg-image5 {
+    background-image: url('/images/unnamed (1) 1.png');
+    background-size: fill; 
+    background-repeat: no-repeat; 
+   border-left: 0.2px solid #00655455;
+   border-right: 0.2px solid #00655455 ;
+   border-top: 0.2px solid #00655455 ;
+}
+.dark-bg-image5-border{
+    border-bottom: 0.2px solid  #00655455;
+    border-left: 0.2px solid #00655455;
+    border-right: 0.2px solid #00655455 ;
+}  
+
+.dark-bg-image5-title{
+   color:#FFFFFF ;
+   font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.2px;
+}
+
+.dark-bg-image5-info {
+    font-family: Inter;
+    font-size: 12.8px;
+    font-weight: 400;
+    color: #DFDFDF;
+    
+    line-height: 19px; /* Adjust the line-height value as needed */
+  }
+  
+.dark-bg-image5-Ad{
+
+    font-family: Inter;
+    font-size: 12.8px;
+    font-weight: 700;
+    line-height: 19px;
+   
+    color: #FFFFFF;
+
+background: #000000;
+}
+.dark-bg-image-name{
+  font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 20.57px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.dark-bg-image-stat{
+  background: #292B32;
+ 
+  border-radius: 2px ;
+ 
+  
+}
+.dark-bg-image-stat-info1{
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: #DFDFDF;
+
+  
+
+}
+
+.dark-bg-image-stat-info2{
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.button{
+  background: #2C9CF0;
+ 
+  border-radius: 3px ;
+  opacity: 0px;
+  
+}
+
+.button-text{
+
+gap: 0px;
+opacity: 0px;
+color: #FFFFFF;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 25.89px;
+
+}
+
+/* --------- */
+
+.dark-bg-below{
+  background: linear-gradient(180deg, #18282A 0%, #221A2C 100%);
+
+
+}
+.dark-bg-below-vector1{
+  background-image: url('/images/Vector (1).png');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  height: 19.16px;
+  width: 11.03px;
+  opacity: 0px;
+  
+}
+
+.dark-bg-below-vector2{
+  background-image: url('/images/Vector (1).png');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  height: 19.16px;
+  width: 11.03px;
+  opacity: 0px;
+  rotate: 180deg;
+}
+
+
+.dark-bg-below-title{
+  font-family: Poppins;
+font-size: 50px;
+font-weight: 700;
+line-height: 52.5px;
+color: #FFFFFF;
+}
+
+.dark-bg-below-des{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.65px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.dark-bg-below-image1{
+  background-image: url('/images/Subtract (1).png');
+  background-size:  100% 100%; 
+  background-repeat: no-repeat;
+  
+}
+.dark-bg-below-image1:hover {border: Mixed solid #818A97 }
+
+.dark-bg-below-image2{
+  background-image: url('/images/Ticket_Mockup 3.png');
+  background-size: cover ; 
+  background-repeat: no-repeat;
+  width: 226.1px;
+  height: 401.25px;
+  box-shadow: 0px 8px 16px 0px #00000033;
+}
+.dark-bg-below-divider{
+  border-color: #818A97;
+  margin-top:22px;
+}
+.dark-bg-below-image1-title{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.52px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.dark-bg-below-image1-date{
+  font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.dark-bg-below-image1-info {
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.58px;
+text-align: center;
+color: #DFDFDF;
+}
+.dark-bg-below-image1-but{
+  background: ;
+
+}
+
+.dark-bg-below-image1-but-text{
+  font-family: Inter;
+font-size: 12.73px;
+font-weight: 500;
+line-height: 15.41px;
+
+color: #FFFFFF;
+}
+
+.dark-bg-below-image3{
+  background-image: url('/images/pic.png');
+  background-size: cover ; 
+  background-repeat: no-repeat;
+  width: 226.1px;
+  height: 401.25px;
+  box-shadow: 0px 8px 16px 0px #00000033;
+}
+
+
+
+
+/* ------------------ */
