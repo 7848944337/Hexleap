@@ -148,7 +148,9 @@ import "./globals.css"
         </div>
         <div className="row-span-1 relative  flex items-center justify-center mt-4  ">
           <div className="w-[36.75px] h-[49px] absolute inset-x-center start-0  flex items-center justify-center border border-blue-500">
-            <div className="bg-below-vector1 "></div>
+            <div className="bg-below-vector1 ">
+              
+            </div>
           </div>
           <div className=" h-[625px] grid grid-flow-row-dense grid-cols-3  place-items-center gap-5  ">
             <div className={`col-span-1 w-[257px] h-[625px]   ${isClicked ? 'bg-below-image1' : 'dark-bg-below-image1'} hover:shadow-xl  flex flex-col items-center justify-center`}>
